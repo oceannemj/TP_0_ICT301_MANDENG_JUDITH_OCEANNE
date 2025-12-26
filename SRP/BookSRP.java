@@ -1,5 +1,4 @@
-
-package ict301.solid.srp;
+package SRP;
 
 // Gère les données du livre
 public class BookSRP {

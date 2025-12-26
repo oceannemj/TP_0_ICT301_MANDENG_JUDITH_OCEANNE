@@ -1,4 +1,4 @@
-package ict301.solid.srp;
+package SRP;
 public class Book {
 private String title;
 private String author;
@@ -32,11 +32,11 @@ public Book(String title, String author, String content) {
 
 
 // Utilisation de la classe Book
-   public class Main {
-   public static void main(String[] args) {
-   Book book = new Book("Les principes SOLID", "Etudiants de M1-GL");
-   book.printToScreen();
-   book.saveToDatabase();
-   book.emprunter("Marcial");
-   }
- } 
+   class Main {
+      public static void main(String[] args) {
+         Book book = new Book("Les principes SOLID", "Etudiants de M1-GL"," Contenu du livre...");
+         book.printToScreen();
+         book.saveToDatabase();
+         book.emprunter("Marcial");
+      }
+   } 
